@@ -1,0 +1,88 @@
+POUSADA CAFÉ DA MATA — SITE EM HTML COM VÍDEOS
+Atualização: 20/10/2026 · King Web
+
+COMO ABRIR
+1. Extraia o ZIP completamente.
+2. Entre na pasta pousada-cafe-da-mata.
+3. Abra index.html no navegador ou abra a pasta no VS Code.
+Não precisa de XAMPP, PHP, banco de dados ou instalação.
+
+PÁGINAS
+index.html — Página inicial, pousada, acomodações, experiências, mapa e FAQ.
+chale-1-quarto.html — Chalé de 1 quarto, 6 fotos, detalhes e comodidades.
+chale-superior.html — Chalé Superior, 4 fotos, detalhes e comodidades.
+familia-com-banheira.html — Família com Banheira, 8 fotos e detalhes.
+
+ORGANIZAÇÃO
+css/style.css — Estilo e adaptação para computador, tablet e celular.
+css/fonts.css — Declaração das fontes locais.
+css/cinema.css — Apresentação dos vídeos e da seção Filmes.
+js/script.js — Menus, galeria, formulário, validação e mensagem do WhatsApp.
+js/cinema.js — Reprodução, pausa, visualização ampliada e carregamento dos vídeos.
+img/ — Fotos reais da pousada. As novas fotos ficam organizadas por acomodação.
+img/videos/ — Todos os vídeos MP4 locais, incluindo as versões para celular.
+fonts/ — Fontes usadas no site e suas licenças.
+VIDEOS.txt — Origem, formato e substituição dos vídeos.
+FONTES-DAS-FOTOS.txt — Origem das fotografias e informações consultadas.
+
+O QUE FOI ADICIONADO
+- Vídeo de abertura na home e nas três páginas de acomodação.
+- Seção Filmes com os quatro vídeos reunidos na página inicial.
+- Botão de pausa, opção de rever e player ampliado com controles nativos.
+- Movimento contínuo nas fotografias, sem oscilação ou repetição invertida.
+- O fundo para no último quadro e só reinicia quando o visitante pede para rever.
+- Versões de vídeo menores para celular.
+- A foto real fica visível enquanto o vídeo carrega ou caso ele não reproduza.
+- Os vídeos de fundo pausam fora da tela, com a aba oculta e ao abrir diálogos.
+- Preferências de movimento reduzido e economia de dados são respeitadas.
+- Uma página completa para cada uma das três categorias já apresentadas.
+- Links diretos nos cards, menu e rodapé.
+- Fotos ampliáveis com miniaturas, setas, teclado e gesto de deslizar.
+- Consulta com a acomodação selecionada automaticamente.
+- Resumo do período e quantidade de noites no formulário.
+- Datas e composição de hóspedes preservadas durante a navegação na mesma aba,
+  quando o navegador permite sessionStorage. Não há banco de dados.
+- Layout próprio para telas pequenas e botões de consulta sempre acessíveis.
+
+CONSULTAS PELO WHATSAPP
+O formulário prepara uma mensagem com acomodação, entrada, saída, hóspedes,
+idades das crianças e observações. O visitante continua no WhatsApp.
+A reserva só é confirmada pela pousada. Não há cobrança, bloqueio automático
+de datas ou consulta de disponibilidade em tempo real.
+As três páginas correspondem a CATEGORIAS de acomodação; não afirmam que a
+pousada tem apenas três unidades físicas. As capacidades anunciadas são 3,
+4 e 6 hóspedes, respectivamente. A equipe confirma a composição da reserva.
+
+HOSPEDAR NA HOSTINGER OU OUTRA HOSPEDAGEM
+Envie o CONTEÚDO da pasta pousada-cafe-da-mata para public_html.
+Mantenha os quatro HTMLs, css, js, img e fonts na mesma estrutura.
+Não envie o ZIP fechado como página do site. Extraia ou envie os arquivos.
+O site é estático, sem compilação, dependências externas de código ou painel.
+Fotos, vídeos e fontes carregam da própria pasta. Mapa, WhatsApp e Instagram usam internet.
+
+EDITAR NO VS CODE
+Textos e informações: abra o HTML da página desejada.
+Estilo e cores: css/style.css.
+Número de consulta: constante WHATSAPP em js/script.js.
+Se mudar o número, atualize também wa.me, tel: e os textos nos quatro HTMLs.
+Fotos: substitua os arquivos em img/ mantendo o caminho e o nome ou atualize
+o src da imagem e o href da respectiva foto na galeria.
+Cada imagem tem legenda, texto alternativo e dimensões no HTML.
+
+CONTATO CONFIGURADO
+WhatsApp: (32) 98402-3517
+Instagram: @pousadacafedamata
+E-mail: pousadacafedamata@gmail.com
+
+VÍDEOS
+São quatro filmes sem áudio: três animações de fotos com 9 segundos e
+um vídeo do Chalé Superior com aproximadamente 6 segundos.
+O filme do Chalé Superior foi gerado no Higgsfield a partir de foto real.
+Os outros três foram produzidos com aproximação contínua nas fotos reais,
+porque não havia saldo suficiente no Higgsfield para quatro gerações.
+Apenas um vídeo usa geração de cenas por IA. Os demais não são reconstruções 3D.
+Não é um tour virtual 3D navegável. As galerias de fotos reais foram mantidas.
+Depois de hospedados, os vídeos são arquivos locais: o site não usa API,
+chave ou créditos do Higgsfield para reproduzir os arquivos.
+
+Design e desenvolvimento · King Web

@@ -1,0 +1,74 @@
+POUSADA CAFÉ DA MATA — VÍDEOS DO SITE
+Atualização: 20/10/2026 · King Web
+
+ARQUIVOS E ORIGEM
+Todos os arquivos estão em img/videos/ e usam MP4 / H.264 / yuv420p,
+sem faixa de áudio e com faststart para começar a reprodução antes de baixar tudo.
+
+pousada.mp4
+Base: img/chales-cafezal.jpg.
+Aproximação contínua de 9 segundos sobre a fotografia original, com início
+e término suaves. Renderização com interpolação subpixel, sem oscilação.
+
+chale-1-quarto.mp4
+Base: img/chale-1-quarto/interior.jpg.
+Aproximação contínua de 9 segundos sobre a fotografia original, com início
+e término suaves. Renderização com interpolação subpixel, sem oscilação.
+
+chale-superior.mp4
+Base: img/superior/quarto.jpg.
+Animação por IA criada no Higgsfield, modelo Seedance 2.5.
+São aproximadamente 6 segundos; o resultado foi convertido para H.264.
+A animação sintetiza movimento e deve ser tratada como interpretação da foto,
+não como registro filmado nem levantamento arquitetônico.
+
+O fundo e o botão “Ver vídeo” usam a animação completa em sentido normal.
+A versão invertida de ida e volta foi removida.
+
+familia-banheira.mp4
+Base: img/familia/deck.jpg.
+Aproximação contínua de 9 segundos sobre a fotografia original, com início
+e término suaves. Renderização com interpolação subpixel, sem oscilação.
+
+Cada arquivo tem uma versão terminada em -mobile.mp4, com 720 pixels de altura.
+Os arquivos para celular são escolhidos em telas de até 750 pixels.
+A fonte do vídeo de fundo é escolhida no primeiro carregamento; redimensionar
+uma janela depois disso não baixa um segundo vídeo desnecessariamente.
+
+REPRODUÇÃO
+- Vídeos de fundo: silenciosos, playsinline e botão de pausa.
+- O fundo reproduz uma vez e permanece no último quadro; o botão muda para
+  “Rever vídeo de fundo”. Reabrir diálogos ou rolar a página não reinicia o filme.
+- Sem repetição invertida ou retorno automático ao primeiro quadro.
+- Fotos de capa sem zoom CSS durante a transição para o vídeo.
+- Fotos reais como capas, preservadas durante o carregamento e em caso de erro.
+- Player ampliado com controles do navegador, sem baixar todos os filmes de uma vez.
+- Sem autoplay quando o navegador informa movimento reduzido, economia de dados
+  ou conexão 2G. Nesses casos, o visitante pode iniciar o vídeo manualmente.
+- Pausa automática quando o fundo sai da tela, quando a aba fica oculta e ao
+  abrir a galeria, o formulário de consulta ou o visualizador de vídeos.
+- Funciona com arquivos locais depois de extrair o ZIP, ou em hospedagem estática.
+- A reprodução no site não consome créditos de geração do Higgsfield.
+
+SUBSTITUIR UM VÍDEO
+Substitua os MP4 mantendo os nomes, a estrutura e o formato H.264.
+Atualize também as versões -mobile.mp4. Se trocar o enquadramento, atualize a
+foto de capa e os atributos data-film-poster e poster no respectivo HTML.
+Para trocar nomes/caminhos, edite data-desktop-src, data-mobile-src, href e
+data-film-mobile no HTML. A apresentação fica em css/cinema.css.
+
+OBSERVAÇÃO SOBRE A GERAÇÃO
+O plano inicial tinha quatro gerações no Higgsfield. Uma foi concluída;
+as outras três foram recusadas por saldo insuficiente. Esses três filmes
+foram produzidos localmente com as fotografias, sem consumo adicional de créditos.
+As legendas do site identificam a animação por IA e as fotografias em movimento.
+
+ESPECIFICAÇÕES DOS ARQUIVOS
+chale-1-quarto-mobile.mp4: 960x720, 9.00s, 945 KB
+chale-1-quarto.mp4: 1440x1080, 9.00s, 2590 KB
+chale-superior-mobile.mp4: 540x720, 6.03s, 515 KB
+chale-superior.mp4: 810x1080, 6.03s, 910 KB
+familia-banheira-mobile.mp4: 540x720, 9.00s, 624 KB
+familia-banheira.mp4: 810x1080, 9.00s, 1649 KB
+pousada-mobile.mp4: 1280x720, 9.00s, 805 KB
+pousada.mp4: 1920x1080, 9.00s, 2136 KB
